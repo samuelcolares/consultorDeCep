@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Consultor de CEP</title>
     <script src="js/script.js" defer></script>
     <link rel="stylesheet" href="css/style.css">
     
 </head>
 <body>
-    <h1>Consultor de CEP</h1>
+    <h1>Consulta de CEP</h1>
     <form method="get" action=".">
         <label>Cep:
-        <input name="cep" type="number" id="cepInput"></label>
-        <label>Rua:
-        <input name="rua" type="text" id="rua"></label>
+        <input name="cep" type="number" id="cepInput" placeholder="Digite seu CEP"></label>
+        <label>Logradouro:
+        <input name="rua" type="text" id="rua" disabled></label>
         <label>Bairro:
-        <input name="bairro" type="text" id="bairro"></label>
+        <input name="bairro" type="text" id="bairro" disabled></label>
         <label>Cidade:
-        <input name="cidade" type="text" id="cidade"></label>
+        <input name="cidade" type="text" id="cidade" disabled></label>
         <label>Estado:
-        <input name="estado" type="text" id="estado"></label>
+        <input name="estado" type="text" id="estado" disabled></label>
       </form>
 </body>
 </html>
